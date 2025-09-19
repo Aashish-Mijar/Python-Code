@@ -5,4 +5,9 @@ details = {
     "profession":"Teacher"
 }
 
-print(details)
+details["address"] = "Waling-09"
+# print(details)
+
+# ---- Using Loop
+for detail in details:
+    print(detail, details[detail])
