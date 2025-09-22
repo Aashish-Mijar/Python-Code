@@ -8,7 +8,7 @@
 <summar> Write a function multiply that multiplies two numbers, but can also accept and multiply strings.
 
 <summar>4. Function Returning Multiple Values
-<summar> 
+<summar> Create a function that returns both the area and circumference of a circle given its radius.
 
 <summar>5. Default Parameter Value
 <summar> Given a string, find the first non-repeated character
