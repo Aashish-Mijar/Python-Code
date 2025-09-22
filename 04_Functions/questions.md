@@ -11,7 +11,7 @@
 <summar> Create a function that returns both the area and circumference of a circle given its radius.
 
 <summar>5. Default Parameter Value
-<summar> Given a string, find the first non-repeated character
+<summar> write a function that greets a user. If no name is provided, it should greet default value
 
 <summar>6. Lambda Function
 <summar> Compute the factorial of number using a while loop
