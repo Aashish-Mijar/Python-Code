@@ -11,13 +11,13 @@
 <summar> Create a function that returns both the area and circumference of a circle given its radius.
 
 <summar>5. Default Parameter Value
-<summar> write a function that greets a user. If no name is provided, it should greet default value
+<summar> Write a function that greets a user. If no name is provided, it should greet default value
 
 <summar>6. Lambda Function
-<summar> Compute the factorial of number using a while loop
+<summar> Create a lambda function to compute the cube of a number
 
 <summar>7. Function with *args
-<summar> Keep asking the user for input until they enter a number between 1 to 10
+<summar> 
 
 <summar>8. Function with **kwargs
 <summar>Check if a number is prime
