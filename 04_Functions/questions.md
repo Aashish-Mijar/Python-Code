@@ -20,7 +20,7 @@
 <summar> Write a function that takes variable number of argument and returns their sum.
 
 <summar>8. Function with **kwargs
-<summar>
+<summar> Create a function that accepts any number of keyword arguments and prints them in the format key: value
 
 <summar>9. Generator Function with yield
 <summar> 
