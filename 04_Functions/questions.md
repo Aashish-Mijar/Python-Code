@@ -23,7 +23,7 @@
 <summar> Create a function that accepts any number of keyword arguments and prints them in the format key: value
 
 <summar>9. Generator Function with yield
-<summar> 
+<summar> Write a generator function that yields even numbers up to a specified limit.
 
 <summar>10. Recursive Function
 <summar> 
