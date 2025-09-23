@@ -26,4 +26,4 @@
 <summar> Write a generator function that yields even numbers up to a specified limit.
 
 <summar>10. Recursive Function
-<summar> 
+<summar> Create a recursive function to calculate the factorial of a number.
