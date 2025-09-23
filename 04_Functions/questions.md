@@ -17,13 +17,13 @@
 <summar> Create a lambda function to compute the cube of a number
 
 <summar>7. Function with *args
-<summar> 
+<summar> Write a function that takes variable number of argument and returns their sum.
 
 <summar>8. Function with **kwargs
-<summar>Check if a number is prime
+<summar>
 
 <summar>9. Generator Function with yield
-<summar> Check if all elements in a list are unique. If duplicate exit the loop and print the duplicate
+<summar> 
 
 <summar>10. Recursive Function
-<summar> Implement an exponential backoff strategy that doubles the wait time between retries, starting from 1 second, but stops after 5 retries
+<summar> 
