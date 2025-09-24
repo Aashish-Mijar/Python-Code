@@ -1,0 +1,29 @@
+# Ouestions on OOP
+
+<summary>1. Basic Class and Object
+<summary> Create a Car class with attributes like brand and model. Then create an instance of this class.
+
+<summary>2. Class Method and Self
+<summary> 
+
+<summary>3. Inheritance
+<summary> 
+
+<summary>4. Encapsulation
+<summary> 
+
+<summary>5. Class Variables
+<summary> 
+
+<summary>6. Static Method
+<summary> 
+
+<summary>7. Property Decorators
+<summary> 
+
+<summary>8. Class Inheritance and ininstance() Function
+<summary> 
+
+<summar>9. Multiple Inheritance
+<summary> 
+
