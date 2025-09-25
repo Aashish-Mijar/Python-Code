@@ -7,7 +7,7 @@
 <summary> Add a method to the Car class that displays the full name of the car (brand and model).
 
 <summary>3. Inheritance
-<summary> 
+<summary> Create a ElectricCar class that inherits from the Car class and has an additional attribute battery_size
 
 <summary>4. Encapsulation
 <summary> 
