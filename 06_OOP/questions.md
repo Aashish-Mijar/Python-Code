@@ -4,7 +4,7 @@
 <summary> Create a Car class with attributes like brand and model. Then create an instance of this class.
 
 <summary>2. Class Method and Self
-<summary> 
+<summary> Add a method to the Car class that displays the full name of the car (brand and model).
 
 <summary>3. Inheritance
 <summary> 
