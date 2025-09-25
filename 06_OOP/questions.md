@@ -10,7 +10,7 @@
 <summary> Create a ElectricCar class that inherits from the Car class and has an additional attribute battery_size
 
 <summary>4. Encapsulation
-<summary> 
+<summary> Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 
 <summary>5. Class Variables
 <summary> 
