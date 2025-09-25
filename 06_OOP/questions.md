@@ -24,6 +24,11 @@
 <summary>8. Class Inheritance and ininstance() Function
 <summary> 
 
-<summar>9. Multiple Inheritance
+<summary>9. Multiple Inheritance
 <summary> 
+
+<summary>10. Polymorphism
+<summary> Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
+
+
 
