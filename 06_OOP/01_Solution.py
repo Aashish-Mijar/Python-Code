@@ -1,3 +1,4 @@
+# ----- Creation of class and Objects
 class Car:
     # brand = None
     # model = None
@@ -5,7 +6,8 @@ class Car:
     def __init__(self, brand, model):
         self.brand = brand
         self.model = model
-        
+
+ # instantiated object       
 my_car = Car("Toyota", "Corolla")
 print(my_car.brand)
 print(my_car.model)
