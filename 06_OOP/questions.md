@@ -13,7 +13,7 @@
 <summary> Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 
 <summary>5. Class Variables
-<summary> 
+<summary> Add a class variable to Car that keeps track of the number of cars created.
 
 <summary>6. Static Method
 <summary> 
