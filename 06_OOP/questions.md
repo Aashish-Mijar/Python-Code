@@ -22,7 +22,7 @@
 <summary> Use a property decorators in the Car class to make the model attribute read only.
 
 <summary>8. Class Inheritance and ininstance() Function
-<summary> 
+<summary> Demonstrate the use of ininstance to check if my_tesla is an instance of Car and ElectricCar
 
 <summary>9. Multiple Inheritance
 <summary> 
