@@ -12,23 +12,25 @@
 <summary>4. Encapsulation
 <summary> Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
 
-<summary>5. Class Variables
+<summary>5. Polymorphism
+<summary> Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
+
+<summary>6. Class Variables
 <summary> Add a class variable to Car that keeps track of the number of cars created.
 
-<summary>6. Static Method
+<summary>7. Static Method
 <summary> Add a static method to the Car class that returns a general description of a Car.
 
-<summary>7. Property Decorators
+<summary>8. Property Decorators
 <summary> Use a property decorators in the Car class to make the model attribute read only.
 
-<summary>8. Class Inheritance and ininstance() Function
+<summary>9. Class Inheritance and ininstance() Function
 <summary> Demonstrate the use of ininstance to check if my_tesla is an instance of Car and ElectricCar
 
-<summary>9. Multiple Inheritance
+<summary>10. Multiple Inheritance
 <summary> Create two Classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance
 
-<summary>10. Polymorphism
-<summary> Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
+
 
 
 
