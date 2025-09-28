@@ -16,7 +16,7 @@
 <summary> Add a class variable to Car that keeps track of the number of cars created.
 
 <summary>6. Static Method
-<summary> 
+<summary> Add a static method to the Car class that returns a general description of a Car.
 
 <summary>7. Property Decorators
 <summary> 
