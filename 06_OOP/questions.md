@@ -25,7 +25,7 @@
 <summary> Demonstrate the use of ininstance to check if my_tesla is an instance of Car and ElectricCar
 
 <summary>9. Multiple Inheritance
-<summary> 
+<summary> Create two Classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance
 
 <summary>10. Polymorphism
 <summary> Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
