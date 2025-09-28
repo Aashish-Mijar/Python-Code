@@ -19,7 +19,7 @@
 <summary> Add a static method to the Car class that returns a general description of a Car.
 
 <summary>7. Property Decorators
-<summary> 
+<summary> Use a property decorators in the Car class to make the model attribute read only.
 
 <summary>8. Class Inheritance and ininstance() Function
 <summary> 
