@@ -6,7 +6,8 @@ db = client["ytmanager"]
 video_collection = db["videos"]
 
 # print(video_collection)
-
+def add_video(name, time):
+    video_collection.insert_one({"name":name, "time":time})
 
 
 
