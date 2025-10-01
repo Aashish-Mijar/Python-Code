@@ -13,6 +13,9 @@ def list_videos():
     for video in video_collection.find():
         print(f"Id: {video['_id']}, Name: {video['name']} amd Time: {video['time']}")
 
+def update_video(video_id, new_name, new_time):
+    video_collection.update_one({'_id': video_id}, 
+                                {"$set": {"name": new_name, "time": new_time}})
 
 def main():
     while True:
