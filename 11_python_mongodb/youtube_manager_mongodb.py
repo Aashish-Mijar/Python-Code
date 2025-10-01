@@ -1,0 +1,42 @@
+from pymongo import MongoClient
+
+client = MongoClient("mongodb+srv://youtubeManager:youtubeManager@cluster0.lxl3fsq.mongodb.net/", tlsAllowInvalidCertificates= True)
+
+db = client["ytmanager"]
+video_collection = db["videos"]
+
+# print(video_collection)
+
+
+
+
+def main():
+    while True:
+        print("\nYoutube Manager App")
+        print("1. List all videos")
+        print("2. Add all videos")
+        print("3. Update video")
+        print("4. Delete video")
+        print("5. Exit the app")
+        choice =  input("Enter your choice: ")
+
+        if choice == '1':
+            list_videos()
+
+        elif choice == '2':
+            name = input("Enter the video name: ")
+            time = input("Enter the video time: ")
+            add_video(name, time)
+
+        elif choice == '3':
+            video_id = input("Enter the video id to update: ")
+            name = input("Enter the video name: ")
+            time = input("Enter the video time: ")
+            update_video(video_id, name, time)
+        
+        elif choice == '4':
+            video_id = input("Enter the video id to delete: ")
+            delete_video(video_id)
+
+if __name__ == "__main__":
+    main()
