@@ -9,6 +9,9 @@ video_collection = db["videos"]
 def add_video(name, time):
     video_collection.insert_one({"name":name, "time":time})
 
+def list_videos():
+    for video in video_collection.find():
+        print(f"Id: {video['_id']}, Name: {video['name']} amd Time: {video['time']}")
 
 
 def main():
