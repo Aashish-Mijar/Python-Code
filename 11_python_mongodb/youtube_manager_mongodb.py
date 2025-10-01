@@ -17,6 +17,9 @@ def update_video(video_id, new_name, new_time):
     video_collection.update_one({'_id': video_id}, 
                                 {"$set": {"name": new_name, "time": new_time}})
 
+def delete_video(video_id):
+    video_collection.delete_one({"_id": video_id})
+
 def main():
     while True:
         print("\nYoutube Manager App")
