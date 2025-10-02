@@ -35,3 +35,7 @@ elif user_choice == "Scissor":
     else:
         print("Rock smashes Scissor!")
         print("Computer Wins!")
+
+else:
+    print("\nPlease enter valid choice!")
+    print("Note: Start with capital letter. CASE SENSITIVE")
