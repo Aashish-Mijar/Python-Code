@@ -15,14 +15,23 @@ elif user_choice == "Rock":
         print("Computer wins!")
     
     else:
-        print("Rock breaks Scissor!")
+        print("Rock smashes Scissor!")
         print("You win!")
 
 elif user_choice == "Paper":
     if computer_choice == "Scissor":
         print("Scissor cuts Paper!")
         print("Computer Wins!")
+
     else:
         print("Paper covers rock!")
         print("You win!")
 
+elif user_choice == "Scissor":
+    if computer_choice == "Paper":
+        print("Scissor cuts Paper!")
+        print("You win!")
+
+    else:
+        print("Rock smashes Scissor!")
+        print("Computer Wins!")
