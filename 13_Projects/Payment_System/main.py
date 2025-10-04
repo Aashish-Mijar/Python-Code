@@ -21,3 +21,8 @@ google_pay_qr = qrcode.make(google_pay_url)
 phonepe_qr.save('phonepe_qr.png')
 paytm_qr.save('paytm_qr.png')
 google_pay_qr.save('google_pay_qr.png')
+
+# Display the  qr codes (you may need to install pIL/pillow library)
+phonepe_qr.show()
+paytm_qr.show()
+google_pay_qr.show()
