@@ -9,7 +9,7 @@ def task():
     
     print(f"Today's tasks are\n{tasks}")
     while True:
-        operation = int(input("Enter 1-Add\n2-Update\n3-Delete\n4-View\n5-Exit/Stop "))
+        operation = int(input("....Enter....\n1-Add\n2-Update\n3-Delete\n4-View\n5-Exit/Stop "))
         if operation == 1:
             add = input("Enter task you want to add = ")
             tasks.append(add)
@@ -39,4 +39,5 @@ def task():
 
         else:
             print("Invalid Input!")
-    
+
+task()
