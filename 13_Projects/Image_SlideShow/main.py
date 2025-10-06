@@ -16,8 +16,8 @@ image_paths = [
     r'E:\Files_Semesters\Python\Python_Code\13_Projects\Image_SlideShow\For_SlideShow_app\img6.jpg',
 ]
 
-# Resize the images to 1080 x 1080
-image_size = (1080, 1080)
+# Resize the images to 900 x 900
+image_size = (900, 900)
 images = [Image.open(path). resize(image_size) for path in image_paths]
 photo_images=[ImageTk.PhotoImage(image) for image in images]
 
