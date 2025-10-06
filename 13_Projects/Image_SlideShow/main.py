@@ -7,7 +7,7 @@ root = tk.Tk()
 root.title("Image Slideshow viewer")
 
 # List of Image Path
-image_path = [
+image_paths = [
     r'\For_SlideShow_app\img1.jpg',
     r'\For_SlideShow_app\img2.jpg',
     r'\For_SlideShow_app\img3.jpg',
@@ -17,3 +17,9 @@ image_path = [
 ]
 
 # Resize the images to 1080 x 1080
+image_size = (1080, 1080)
+images = [Image.open(path). resize(image_size) for path in image_paths]
+photo_images=[ImageTk.PhotoImage(image) for image in images]
+
+label = tk.Label(root)
+label.root()
