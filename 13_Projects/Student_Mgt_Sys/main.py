@@ -41,3 +41,18 @@ def display_all_students():
     
     else:
         print("No students found/added")
+
+def main():
+    while True:
+        print('\n Student Grades Management System')
+        print("1. Add Student")
+        print("2. Update Student")
+        print("3. Delete Student")
+        print("4. View Student")
+        print("5. Exit")
+
+        choice = int(input("Enter your choice = "))
+        if choice == 1:
+            name = input("Enter your name: ")
+            grade = int(input("Enter student grade = "))
+            add_student(name, grade)
