@@ -65,4 +65,10 @@ def main():
         elif choice == 3:
             name = input("Enter student name = ")
             delete_student(name)
-               
+
+        elif choice == 4:
+            display_all_students()
+
+        elif choice == 5:
+            print("Closing the program...")
+            break     
