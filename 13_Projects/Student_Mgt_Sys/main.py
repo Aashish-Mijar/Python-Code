@@ -24,4 +24,11 @@ def update_student(name, grade):
     else:
         print(f"{name} is not found")
 
+# Delete a student
+def delete_student(name):
+    if name in student_grades:
+        del student_grades[name]
+        print(f"{name} has been successfully deleted")
 
+    else:
+        print(f"{name} is not found!")
