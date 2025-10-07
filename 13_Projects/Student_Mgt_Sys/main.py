@@ -61,4 +61,8 @@ def main():
             name = input("Enter student name = ")
             grade = int(input("Enter student grade = "))
             update_student(name, grade)
-            
+
+        elif choice == 3:
+            name = input("Enter student name = ")
+            delete_student(name)
+               
