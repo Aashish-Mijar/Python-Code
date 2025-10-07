@@ -32,3 +32,12 @@ def delete_student(name):
 
     else:
         print(f"{name} is not found!")
+
+# View all students
+def display_all_students():
+    if student_grades:
+        for name, grades in student_grades.items():
+            print(f"{name}: {grades}")
+    
+    else:
+        print("No students found/added")
