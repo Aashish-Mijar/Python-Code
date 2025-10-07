@@ -72,3 +72,9 @@ def main():
         elif choice == 5:
             print("Closing the program...")
             break     
+
+        else:
+            print("Invalid choice")
+
+if __name__ == "__main__":
+    main()
