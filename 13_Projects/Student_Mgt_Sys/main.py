@@ -56,3 +56,9 @@ def main():
             name = input("Enter your name: ")
             grade = int(input("Enter student grade = "))
             add_student(name, grade)
+        
+        elif choice == 2:
+            name = input("Enter student name = ")
+            grade = int(input("Enter student grade = "))
+            update_student(name, grade)
+            
