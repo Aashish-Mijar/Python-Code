@@ -11,6 +11,7 @@ thisTuple = ("apple")
 tuple1 = ("Book", "Pencil", "Pen")
 tuple2 = (1,3,4,5,6,7)
 tuple3 = (True, False, False)
+tuple4 = (2.4, 5.4, 5.9)
 
 # print(tuple1, tuple2, tuple3)
 
