@@ -11,7 +11,8 @@ details["address"] = "Waling-09"
 # ---- Adding new items ----
 details["gender"]="Male"
 
-# ---- Using Loop
+# ---- Using Loop ------
+
 # for detail in details:
 #     print(detail, details[detail])
 
