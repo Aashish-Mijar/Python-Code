@@ -1,6 +1,6 @@
 from decimal import Decimal
 
-# ---- 
+# ---- Operation in decimal form
 dec = 0.1 + 0.1 + 0.1 - 0.3   # give incorrect value
 print(dec)
 
