@@ -52,3 +52,13 @@ while True:
 
         else:
             print('Contact not found!')
+    
+    elif choice == '5':
+        search_name = input("Enter contact name to search = ")
+        found = False
+        for name, contact in contacts.items():
+            if search_name.lower() in name.lower():
+                print(f"Found-Name {name}, Age:{age}, Mobile Number: {mobile}, Email: {email}")
+                found = True
+            if not found:
+                print("No contact found with that name")
