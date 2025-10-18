@@ -62,3 +62,10 @@ while True:
                 found = True
             if not found:
                 print("No contact found with that name")
+    
+    elif choice == '6':
+        print(f"Total contacts in your book: {len(contacts)}")
+    
+    elif choice == '7':
+        print("Good bye... Closing the app...")
+        break
