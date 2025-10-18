@@ -14,4 +14,16 @@ while True:
     choice = input("Enter your choice = ")
 
     if choice == '1':
+        name = input("Enter your name: ")
+        if name in contacts:
+            print(f"Contact name {name} already exists!")
+        else:
+            age = input("Enter age = ")
+            email = input("Enter email = ")
+            mobile = input("Enter mobile number = ")
+            contacts[name] = {'age':int(age), 'email':email, 'mobile':mobile}
+            print(f"Contact name {name} has been created successfully!")
+        
+    elif choice == '2':
+        
         
