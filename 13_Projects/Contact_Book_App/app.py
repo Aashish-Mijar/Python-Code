@@ -69,3 +69,6 @@ while True:
     elif choice == '7':
         print("Good bye... Closing the app...")
         break
+    
+    else:
+        print("Invalid choice!")
