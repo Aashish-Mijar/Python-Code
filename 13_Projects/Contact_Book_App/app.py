@@ -25,5 +25,11 @@ while True:
             print(f"Contact name {name} has been created successfully!")
         
     elif choice == '2':
+        name = input("Enter contact name to view = ")
+        if name in contacts:
+            contact = contacts[name]
+            print(f"Name: {name}, Age: {age}, Mobile: {mobile}")
         
+        else:
+            print("Contact not found!")
         
