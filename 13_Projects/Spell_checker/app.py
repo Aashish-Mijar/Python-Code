@@ -35,3 +35,6 @@ class SpellCheckerApp:
             print(f"Corrected text : {corrected_text}")
 
 
+# step - 5 running the main program
+if __name__ == "__main__":
+    SpellCheckerApp().run()
