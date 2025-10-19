@@ -16,3 +16,22 @@ class SpellCheckerApp:
                 print(f'Correcting "{word}" to "{corrected_word}"')
                 corrected_words.append(corrected_word)
 
+        
+        #step -3 returning the corrected text
+        return ''.join(corrected_words)
+    
+    #step -4 running the app
+    def run(self):
+        print("\n--Spell Checker---")
+
+        while True:
+            text = input("Enter text to check (or type 'exit' to quit):")
+
+            if text.lower() == 'exit':
+                print('Closing the program....')
+                break
+
+            corrected_text = self.correct_text(text)
+            print(f"Corrected text : {corrected_text}")
+
+
