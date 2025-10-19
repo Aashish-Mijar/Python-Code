@@ -33,5 +33,9 @@ name = input("Enter the recipient name = ")
 recipent_number = input("Enter the recipient number with country code (e.g, +977)")
 message_body = input(f"Enter the message you want to send to {name}: ")
 
-# step - 5
+# step - 5 parse date/time and calculate delay
+date_str = input("Enter the date to send the message (YYYY-MM_DD): ")
+time_Str = input("Enter the time to send the message (HH:MM in 24 hour format): ")
+
+# datetime
 
