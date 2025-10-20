@@ -10,5 +10,5 @@ elif user_age > 19 and user_age <= 59:
     print("User is Adult.")
 
 else:
-    print("User is Senior")
+    print("USer is Senior as per his/her age.")
 
