@@ -9,3 +9,5 @@ print("Symmetric Difference: ", A^B)
 # Removing duplicates using sets
 
 data = [1,2,2,3,4,4,5]
+unique = list(set(data))
+print("Unique Data: ", unique)
