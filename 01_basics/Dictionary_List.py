@@ -4,3 +4,6 @@ students  = [
     {"name":"Rina", "age":20}
 ]
 
+for student in students:
+    print(f"{student['name']} is  {student['age']} years old.")
+
