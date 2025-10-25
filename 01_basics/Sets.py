@@ -3,3 +3,4 @@ B = {2,3,4,6,5}
 
 print("Union: ", A|B)
 print("Intersection: ", A&B)
+print("Difference (A-B): ", A-B)
