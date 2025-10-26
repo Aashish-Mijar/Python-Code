@@ -3,3 +3,6 @@ students={
     "Aashish": {"math":99, "Science": 96, "english": 98},
     "Rina": {"math": 78, "Science":80, "english": 85}
 }
+
+for name, subjects in students.items():
+    avg = sum(subjects.value())/ len(subjects)
