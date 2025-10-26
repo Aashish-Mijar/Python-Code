@@ -4,6 +4,7 @@ students={
     "Rina": {"math": 78, "Science":80, "english": 85}
 }
 
+# Find average marks of each students
 for name, subjects in students.items():
     avg = sum(subjects.value())/ len(subjects)
     print(f"{name} - Average Marks: {avg:.2f}")
