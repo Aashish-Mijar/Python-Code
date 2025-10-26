@@ -9,5 +9,6 @@ for name, subjects in students.items():
     avg = sum(subjects.value())/ len(subjects)
     print(f"{name} - Average Marks: {avg:.2f}")
 
+# Find the top scorer
 top_student = max(students.items(), key=lambda item: sum(item[1].values()))
 print(f"\nTop Student: {top_student[0]}")
