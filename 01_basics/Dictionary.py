@@ -10,6 +10,7 @@ details["address"] = "Waling-09"
 
 # ---- Adding new items ----
 details["gender"]="Male"
+details["gender"]="Male"
 
 # ---- Using Loop ------
 
