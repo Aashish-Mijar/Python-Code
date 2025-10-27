@@ -6,3 +6,4 @@ print(dec)
 
 dec_Correct = Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3')
 print(dec_Correct)
+print(dec_Correct)
