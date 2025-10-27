@@ -12,3 +12,4 @@ for name, subjects in students.items():
 # Find the top scorer
 top_student = max(students.items(), key=lambda item: sum(item[1].values()))
 print(f"\nTop Student: {top_student[0]}")
+print(f"\nTop Student: {top_student[0]}")
