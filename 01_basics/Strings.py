@@ -47,6 +47,5 @@ path = r"c:\\user\\files\\"  # if put '\' in last gives error but '\\' won't giv
 
 # ---- contain ----
 print("files" in path)
-print("files" in path )
 
 
