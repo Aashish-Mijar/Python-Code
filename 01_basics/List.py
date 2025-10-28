@@ -44,4 +44,3 @@ print(tea_varities)
 
 # ----- copying list in different reference -------
 # tea_varities_copy = tea_varities.copy()
-tea_varites_copy = tea_varities.copy()
