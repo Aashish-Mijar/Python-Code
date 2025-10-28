@@ -11,4 +11,3 @@ print("Symmetric Difference: ", A^B)
 data = [1,2,2,3,4,4,5]
 unique = list(set(data))
 print("Unique Data: ", unique)
-print("Unique Data: ", unique)
