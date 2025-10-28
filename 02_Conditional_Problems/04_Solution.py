@@ -10,4 +10,4 @@ if fruit == "Banana":
     elif color == "Brown":
         print("OverRipe")
 else:
-    print("For now just for Banana...")
+    print("For now just for Banana....")
