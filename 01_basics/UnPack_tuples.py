@@ -13,5 +13,3 @@ print(green)
 # print(yellow)
 print(tropic)
 print(red)
-
-print(red)
