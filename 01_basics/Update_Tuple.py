@@ -10,3 +10,5 @@ y.append("orange")
 y.remove("apple")
 x = tuple(y)
 print(x)
+
+print(x)
