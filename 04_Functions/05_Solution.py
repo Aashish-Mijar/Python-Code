@@ -4,4 +4,3 @@ def greet(name = "User"):
 
 print(greet())
 print(greet("Aashish"))
-print(greet("Aashish"))
