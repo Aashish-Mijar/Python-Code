@@ -5,4 +5,3 @@ def square(number):
 
 result = square(4)
 print(result)
-print(result)
