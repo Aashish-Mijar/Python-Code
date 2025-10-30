@@ -8,3 +8,4 @@ def circle_stats(radius):
 
 area, circ = circle_stats(4.3)
 print("Area: ", area, "Circumference: ", circ)
+print("Area: ", area)
