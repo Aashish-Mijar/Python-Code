@@ -8,3 +8,5 @@ cube = lambda x: x ** 3
 
 print(cube(5))
 
+print(cube(45))
+
