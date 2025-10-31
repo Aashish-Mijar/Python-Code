@@ -37,3 +37,5 @@ my_Car.model = "City"
 # print(Car.general_description())
 
 print(my_Car.model)
+
+print(my_Car.model)
