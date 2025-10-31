@@ -39,6 +39,6 @@ print(safari.fuel_type())
 # print(test.total_Car)
 print(Car.total_Car)
 
-print(Car.total_Car)
+
 
 
