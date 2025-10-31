@@ -10,3 +10,4 @@ class Car:
 my_Car = Car("Toyota", "Corolla")
 
 print(my_Car.full_name())
+print(my_Car.full_name())
