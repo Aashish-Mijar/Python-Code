@@ -21,3 +21,5 @@ my_tesla = ElectricCar("Bugati", "Model S", "85KWH")
 # print(my_tesla.__brand)
 print(my_tesla.get_brand())
 print(my_tesla.full_name())
+
+print(my_tesla.full_name())
