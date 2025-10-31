@@ -31,4 +31,4 @@ my_Car = Car("Tata", "Nexon")
 # print(my_Car.general_description())
 print(Car.general_description())
 
-print(Car.general_description())
+
