@@ -14,3 +14,4 @@ print(my_car.model)
 
 my_new_car = Car("Tata", "Safari")
 print(my_new_car.brand)
+print(my_new_car.brand)
