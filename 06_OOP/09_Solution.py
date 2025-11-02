@@ -42,3 +42,4 @@ print(isinstance(my_tesla, ElectricCar))
 # print(Car.general_description())
 
 # print(my_Car.model)
+# print(my_Car.model)
