@@ -6,4 +6,3 @@ for t in range(200):
         y = int(10 + 5 * math.sin((x + t) * 0.3))
         print(" " * y + "*")
     time.sleep(0.05)
-    time.sleep(0.05)
