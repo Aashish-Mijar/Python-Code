@@ -11,4 +11,4 @@ while True:
     pos += direction
     if pos == 0 or pos == width:
         direction *= -1
-        direction *= -1
+        
