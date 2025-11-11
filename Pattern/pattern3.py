@@ -8,4 +8,5 @@ for k in range(20):  # Number of moves
     for i in range(1, n + 1):
         print(" " * (n - i) + "*" * (2 * i - 1))
     time.sleep(0.2)
+    time.sleep(0.2)
 
