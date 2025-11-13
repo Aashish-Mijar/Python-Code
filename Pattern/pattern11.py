@@ -10,5 +10,4 @@ for t in range(20):
             else:
                 print(" ", end="")
         print()
-    time.sleep(0.1)
     time.sleep(0.4)
