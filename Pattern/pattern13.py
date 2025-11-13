@@ -6,4 +6,4 @@ for i in range(50):
     os.system('cls')
     print(" " * (i % 30) + text)
     time.sleep(0.1)
-    time.sleep(0.4)
+    
