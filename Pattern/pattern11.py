@@ -11,3 +11,4 @@ for t in range(20):
                 print(" ", end="")
         print()
     time.sleep(0.1)
+    time.sleep(0.4)
