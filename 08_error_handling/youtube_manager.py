@@ -79,6 +79,7 @@ def main():
                 break
             case _:
                 print("Invalid Choice!")
+                print("Invalid Choice!")
 
 if __name__ == "__main__":
     main()
