@@ -7,3 +7,4 @@
 
 with open('test.txt', 'w') as file:
     file.write('code and sleep')
+    file.write("Code  and sleep")
