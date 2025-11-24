@@ -61,6 +61,7 @@ def main():
 
         else:
             print("Invalid Choice! ")
+            print("Invalid choice!")
 
     conn.close()
 
