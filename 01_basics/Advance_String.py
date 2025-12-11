@@ -11,4 +11,3 @@ print(text.replace("Awesome", "Powerful"))
 name = "Aashish"
 marks = 90
 print(f"{name:^10} | {marks:>3}")
-print(f"{name:^10} | {marks:>3}")
