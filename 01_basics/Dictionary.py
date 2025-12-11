@@ -28,5 +28,7 @@ for key, values in details.items():
 print(len(details))
 
 print(details)
+print(details)
+
 
 
