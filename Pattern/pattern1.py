@@ -6,5 +6,5 @@ for i in range(width):
     print(" " * i + "*")
     time.sleep(0.05)
     os.system('cls')
-    os.system('cls')
+
    
